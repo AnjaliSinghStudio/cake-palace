@@ -115,9 +115,9 @@
         }
 
         .nav-links {
-            position: fixed;
+            display: flex;
+            list-style: none;
             top: 70px;
-            left: -100%;
             width: 100%;
             height: calc(100vh - 70px);
             background: rgba(0, 0, 0, 0.95);
@@ -138,9 +138,6 @@
             margin-left: 1.5rem;   /* thoda kam karo */
             text-decoration: none;
             margin-left: 2rem;
-        }
-        .nav-links.active {
-            left: 0;
         }
 
         .nav-links a:hover {
